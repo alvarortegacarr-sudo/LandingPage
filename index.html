@@ -6,6 +6,7 @@
     <title>Vertuo Red - La Perfección en Cada Taza</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="Favicon.jpg" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
  
@@ -146,7 +147,7 @@
     </footer>
 
     <script>
-        // Smooth scroll
+   
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -160,14 +161,14 @@
             });
         });
 
-        // Form submission
+      
         document.querySelector('form').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('¡Gracias por tu interés! Este es un proyecto de demostración.');
             this.reset();
         });
 
-        // Parallax effect on scroll
+    
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
             const mediaContainer = document.querySelector('.media-container');
